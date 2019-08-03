@@ -1,6 +1,7 @@
 // Get references to page elements
 var $exampleText = $("#example-text");
 var $exampleDescription = $("#example-description");
+var $examplePrice = $("#example-price");
 var $submitBtn = $("#submit");
 var $exampleList = $("#example-list");
 
@@ -66,7 +67,8 @@ var handleFormSubmit = function(event) {
 
   var example = {
     text: $exampleText.val().trim(),
-    description: $exampleDescription.val().trim()
+    description: $exampleDescription.val().trim(),
+    price: $examplePrice.val().trim()
   };
 
   if (!(example.text && example.description)) {
