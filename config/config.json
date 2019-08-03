@@ -1,9 +1,6 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "exampledb",
-    "host": "localhost",
+    "use_env_variable": "db_url",
     "dialect": "mysql"
   },
   "test": {
