@@ -6,7 +6,7 @@
   "test": {
     "username": "root",
     "password": null,
-    "database": "testdb",
+    "database": "plummer",
     "host": "localhost",
     "dialect": "mysql",
     "logging": false
